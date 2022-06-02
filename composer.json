@@ -1,0 +1,8 @@
+{
+    "name": "anikin/dump-plugin",
+    "type": "october-plugin",
+    "description": "Add Twig function d() & dd() that recursively dump passed variables.",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
