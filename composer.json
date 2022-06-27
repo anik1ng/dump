@@ -1,7 +1,22 @@
 {
-    "name": "anikin/dump-plugin",
+    "name": "anikin/oc-dump-plugin",
     "type": "october-plugin",
     "description": "Add Twig function d() & dd() that recursively dump passed variables.",
+    "keywords": [
+        "october",
+        "cms",
+        "plugin",
+        "tools",
+        "dump",
+        "debug"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Constantine Anikin",
+            "email": "mail@anikin.pro"
+        }
+    ],
     "require": {
         "composer/installers": "~1.0"
     }
