@@ -24,7 +24,7 @@ class Plugin extends PluginBase
      *
      * @return array
      */
-    public function registerMarkupTags() : array
+    public function registerMarkupTags()
     {
         if (\Config::get('app.debug') === true) {
             return [
